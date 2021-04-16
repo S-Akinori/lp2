@@ -1,0 +1,58 @@
+$red: #734e30;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+@import './top';
+@import './about';
+@import './trial';
+@import './assurance';
+@import './farmers';
+@import './people';
+@import './voice';
+@import './question';
+@import './footer';
+
+/* 全体設定 */
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+.d-pc {
+    display: none;
+}
+
+@media screen and (min-width: $breakpoint-md) {
+    .d-pc {
+        display: block;
+    }
+    .d-sp {
+        display: none;
+    }
+}
+
+.lead-btn {
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-lg {
+    font-size: 1.3rem;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.lead-btn {
+    text-align: center;
+    img {
+        width: 90%;
+    }
+    background-position: center;
+    // padding:0px 20px 0px 20px;
+}

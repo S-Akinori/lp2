@@ -1,0 +1,945 @@
+@charset "UTF-8";
+/* CSS Document */
+.header {
+  height: 53px;
+  background-color: #FFF;
+  border-top: 3.5px solid #FC9;
+  position: relative;
+  z-index: 100;
+}
+
+.header .navbar-brand {
+  width: 150px;
+}
+
+.header .nav-link {
+  color: #333 !important;
+  margin: 0 20px;
+  text-align: center;
+}
+
+/*
+.header__navigation {
+  display: none;
+}
+*/
+/* .header img {
+  position: absolute;
+  height:29px;
+  left:12px;
+  top: 12px;
+} */
+/* ここまでOK */
+.section-top {
+  margin-bottom: 17px;
+}
+
+.section-top__image {
+  height: 500px;
+  background-image: url("../images/top_image1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 90;
+}
+
+@media screen and (min-width: 768px) {
+  .section-top__image {
+    height: 500px;
+    background: url("../images/top_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+}
+
+.section-top__letter {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.section-top__lead {
+  background-image: url("../images/top_image2.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -32px;
+  z-index: 80;
+  position: relative;
+  padding: 30px;
+}
+
+.section-top__lead p {
+  padding: 40px 16px 8px;
+  font-family: Noto Sans CJK JP;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #666;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .section-top__lead p {
+    text-align: center;
+  }
+}
+
+.section-top__lead__btn {
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+.markeryellow {
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+.section-about {
+  background: url("../images/bg2.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 70;
+  font-family: Noto Sans CJK JP;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #666;
+  text-align: left;
+  margin-top: -50px;
+  padding: 50px 0 30px;
+}
+
+.section-about__sugutabe {
+  color: #c33;
+}
+
+.section-about__3 {
+  color: #393;
+  font-size: 3.6rem;
+}
+
+.section-about__title {
+  font-family: はれのそら明朝;
+  font-size: 2.4rem;
+  font-weight: 100;
+  color: #666;
+  text-align: center;
+}
+
+.section-about hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 10px 0px 12px 0px;
+}
+
+.section-about__list {
+  padding: 14px 10px 0px 7px;
+}
+
+.section-about__list span {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.section-about__list h3 {
+  font-size: 2.2rem;
+  color: #c33;
+  font-weight: 300;
+}
+
+.section-about .btn {
+  background-size: auto 100%;
+  background-position: center;
+  height: 45px;
+}
+
+.section-about__titlebox {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-about__titlebox {
+    display: block;
+    text-align: center;
+  }
+}
+
+.section-about__number {
+  /* position:relative;*/
+  height: 42px;
+  width: 42px;
+  margin-right: 12px;
+  /* top:20%;
+        left:24%;*/
+  text-align: center;
+  font-style: Noto Serif CJK JP;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section-about .number__red {
+  background: url("../images/square_red.jpg");
+}
+
+.section-about .number__green {
+  background: url("../images/square_green.jpg");
+}
+
+.section-about .number__orange {
+  background: url("../images/square_orange.jpg");
+}
+
+.section-about__list hr {
+  text-align: end;
+  bottom: 0px;
+  height: 5.0px;
+  background: linear-gradient(-70deg, transparent 30%, #666 60%, #666 60%, transparent 30%);
+  background-size: 5px 5px;
+  border: none;
+  margin: 5px 0px 5px 0px;
+}
+
+.section-about__description {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+}
+
+.section-about__description span {
+  font-family: Noto Sans CJK JP;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #C33;
+  text-align: left;
+}
+
+.section-trial {
+  background-image: url("../images/bg3.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 60;
+  font-family: Noto Serif CJK JP;
+  font-weight: 400;
+  color: #fff;
+  padding: 50px 0 30px;
+  margin-top: -40px;
+}
+
+.section-trial .comment {
+  width: 100%;
+  font-size: 1.4rem;
+  color: #ff0;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.section-trial .ribbonyellowimage,
+.section-trial .just1 {
+  background: url("../images/ribbon_yellow.png") no-repeat;
+  background-size: contain;
+  font-size: 2.0rem;
+  color: #963;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.section-trial #trial {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: はれのそら明朝;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+
+.section-trial hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #fff 45%, #fff 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 12px 0px 25px 0px;
+}
+
+.section-trial__items {
+  margin-bottom: 25px;
+}
+
+.section-trial__item {
+  text-align: left;
+}
+
+.section-trial__item-picture, .section-trial__item {
+  padding-left: 0px;
+}
+
+.section-trial .person {
+  font-size: 0.9rem;
+  border: solid 0.3px;
+  padding: 1px 5px;
+}
+
+.section-trial .placeandtax {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.section-trial .farm {
+  font-size: 1.6rem;
+}
+
+.section-trial__item h3 {
+  font-size: 1.6rem;
+  border-bottom: 0.2px solid;
+  padding-bottom: 8px;
+  line-height: 2rem;
+}
+
+.section-trial .price {
+  font-size: 1.8rem;
+  margin-top: 13px;
+}
+
+.section-assurance {
+  background-image: url("../images/bg4.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 50;
+  font-family: Noto Serif CJK JP;
+  font-weight: 400;
+  margin-top: -40px;
+  padding: 40px 0 100px;
+}
+
+.section-assurance__subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #734e30;
+  text-align: center;
+}
+
+.section-assurance h2 {
+  font-family: はれのそら明朝;
+  font-size: 2.4rem;
+  font-weight: 200;
+  color: #734e30;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section-assurance hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 10px 0px 20px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-assurance__content {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+}
+
+.section-assurance__description {
+  background: linear-gradient(90deg, #5a3f37 0%, #6c4c16 61%, #5a3f37 100%);
+  position: relative;
+  color: #fff;
+  padding: 30px 10px;
+  margin-top: 30px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-assurance__description {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-assurance__description {
+    width: 600px;
+    right: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-assurance__description {
+    right: 80px;
+  }
+}
+
+.section-assurance__description > div {
+  max-width: 400px;
+  margin: auto;
+}
+
+.section-assurance__description h3 {
+  font-size: 1.9rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 13px;
+}
+
+.section-assurance__description p {
+  font-size: 1.4rem;
+  font-family: Noto Sans CJK JP;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-top: 17px;
+}
+
+.section-assurance__tomato {
+  margin: auto;
+  position: relative;
+  top: -10px;
+  height: 219px;
+  width: 219px;
+  outline: 0.5px solid #fff;
+  outline-offset: -4px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-assurance__tomato {
+    left: 40px;
+    top: 40px;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-assurance__tomato {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-assurance__tomato {
+    left: 80px;
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-assurance .md-underline {
+    text-decoration: underline dotted;
+  }
+}
+
+.section-farmers {
+  background-image: url("../images/bg5.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 40;
+  margin-top: -12px;
+  font-family: Noto Sans CJK JP;
+  font-weight: 400;
+  padding: 30px 0 50px;
+  line-height: 1.2;
+}
+
+.section-farmers .acutually {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #734e30;
+}
+
+.section-farmers__title {
+  font-family: はれのそら明朝;
+  font-size: 2.4rem;
+  font-weight: 100;
+  color: #734e30;
+  text-align: center;
+}
+
+.section-farmers__box1 hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 19px 0px 19px 0px;
+}
+
+.section-farmers__description {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+.section-farmers__description span {
+  color: #990;
+}
+
+.section-farmers hr.hr-light {
+  text-align: end;
+  bottom: 0px;
+  height: 2.0px;
+  background: linear-gradient(-60deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 1px 1px;
+  border: none;
+  left: 22px;
+  right: 38px;
+  margin: 13px 30px 19px 13px;
+}
+
+.section-farmers__difference-title {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.section-farmers__difference-title h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #5a3f37;
+  background: url("../images/ribbon2.jpg");
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+.section-farmers__differencelist .img-container {
+  width: 90px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-farmers__differencelist .img-container {
+    width: 160px;
+  }
+}
+
+.section-farmers .differencebox1, .section-farmers .differencebox2 > div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-farmers .differencebox2 {
+  text-align: center;
+}
+
+.section-farmers .border-right-gray {
+  border-right: 1px solid #cdcdcd;
+}
+
+@media screen and (min-width: 768px) {
+  .section-farmers .md-border-right-gray {
+    border-right: 1px solid #cdcdcd;
+  }
+}
+
+.section-people {
+  background: url("../images/be6.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  position: relative;
+  z-index: 30;
+  margin-top: -50px;
+}
+
+.section-people__title {
+  text-align: center;
+  color: #734e30;
+}
+
+.section-people hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 10px 0px 20px 0px;
+}
+
+.section-people .swiper-container {
+  width: 320px;
+  position: relative;
+}
+
+.section-people .swiper-container .swiper-slide .title {
+  color: #734e30;
+  text-align: center;
+  border: 1px solid #734e30;
+  width: 300px;
+  position: relative;
+  margin: auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-people .swiper-container .swiper-slide .title:before {
+  content: '';
+  position: absolute;
+  bottom: -26.5px;
+  left: 30%;
+  margin-left: -16px;
+  border: 13px solid transparent;
+  border-top: 13px solid #fffde4;
+  z-index: 2;
+}
+
+.section-people .swiper-container .swiper-slide .title:after {
+  content: '';
+  position: absolute;
+  bottom: -29px;
+  left: 30%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #734e30;
+  z-index: 1;
+}
+
+.section-people .swiper-container .swiper-slide .name {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.section-people .swiper-container .swiper-slide .bg-yellow {
+  background: #ebe201;
+  padding: 1px 3px;
+}
+
+.section-people .swiper-container .swiper-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 600;
+  bottom: 80px;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #734e30;
+}
+
+.section-people .swiper-container .swiper-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 600;
+  bottom: 80px;
+  right: 0px;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #734e30;
+}
+
+@media screen and (min-width: 768px) {
+  .section-people .swiper-container {
+    width: 700px;
+  }
+}
+
+.section-voice {
+  background: url("../images/bg5.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 50px 0 60px;
+  position: relative;
+  z-index: 20;
+  margin-top: -50px;
+}
+
+.section-voice .title {
+  color: #734e30;
+  text-align: center;
+}
+
+.section-voice hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 10px 0px 20px 0px;
+}
+
+.section-voice__content {
+  font-size: 1.3rem;
+  margin: 0 20px;
+}
+
+.section-voice .swiper-container {
+  width: 320px;
+  position: relative;
+}
+
+.section-voice .swiper-container .swiper-slide {
+  background: url("../images/bg8.png");
+}
+
+.section-voice .swiper-container .swiper-slide .img-container {
+  width: 100px;
+}
+
+.section-voice .swiper-container .swiper-slide img {
+  width: 100%;
+}
+
+.section-voice .swiper-container .swiper-slide .title {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.section-voice .swiper-container .swiper-slide .bg-yellow {
+  background: #ebe201;
+}
+
+.section-voice .swiper-container .swiper-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 600;
+  bottom: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #734e30;
+}
+
+.section-voice .swiper-container .swiper-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 10000;
+  bottom: 50%;
+  right: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  background: #734e30;
+}
+
+@media screen and (min-width: 768px) {
+  .section-voice .swiper-container {
+    width: 700px;
+  }
+}
+
+.section-question {
+  background: url("../images/bg8.png");
+  background-size: cover;
+  background-position: bottom;
+  padding: 60px 0;
+  margin-top: -50px;
+  position: relative;
+  z-index: 10;
+}
+
+.section-question .title {
+  color: #734e30;
+  text-align: center;
+}
+
+.section-question hr {
+  text-align: end;
+  bottom: 0px;
+  height: 3.0px;
+  background: linear-gradient(-70deg, transparent 25%, #666 45%, #666 55%, transparent 65%);
+  background-size: 3px 3px;
+  border: none;
+  margin: 10px 0px 20px 0px;
+}
+
+.section-question__content {
+  background: #fff;
+}
+
+.section-question__content p {
+  margin: 0;
+}
+
+.section-question__content .question {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #efefef;
+  border-bottom: 1px dotted #333;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-question__content .question {
+    border-bottom: none;
+  }
+}
+
+.section-question__content .question .q-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  background: #ebe201;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.section-question__content .question .q-icon:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  margin-top: -15px;
+  border: 8px solid transparent;
+  border-left: 8px solid #ebe201;
+  z-index: 0;
+  transform: rotate(45deg);
+}
+
+.section-question__content .answer {
+  position: relative;
+  display: flex !important;
+  padding: 10px;
+}
+
+.section-question__content .answer .a-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  background: #734e30;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.section-question__content .answer .a-icon:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  margin-top: -15px;
+  border: 8px solid transparent;
+  border-left: 8px solid #734e30;
+  z-index: 0;
+  transform: rotate(45deg);
+}
+
+.section-question__content .down-up-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: auto;
+}
+
+.section-question h3 {
+  color: #734e30;
+}
+
+footer {
+  background: #f8f9fa;
+  padding: 15px 0;
+}
+
+footer .img-container {
+  width: 200px;
+  margin: auto;
+}
+
+footer .img-container img {
+  width: 100%;
+}
+
+footer .copyright {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* 全体設定 */
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.d-pc {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .d-pc {
+    display: block;
+  }
+  .d-sp {
+    display: none;
+  }
+}
+
+.lead-btn {
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+.text-lg {
+  font-size: 1.3rem;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.lead-btn {
+  text-align: center;
+  background-position: center;
+}
+
+.lead-btn img {
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */

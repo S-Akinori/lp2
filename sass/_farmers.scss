@@ -1,0 +1,110 @@
+.section-farmers{
+	// height:890px;
+	// width: auto 100%;
+	background-image: url("../images/bg5.png");
+    // background-color: #fff;
+    background-position:bottom;	 
+    // background-size: auto 100%;	
+    background-size: cover; 
+    background-repeat:no-repeat;
+    position:relative;	
+    z-index:40;	
+    margin-top:-12px;
+    font-family:Noto Sans CJK JP;
+    font-weight:400;
+	padding:30px 0 50px;
+	line-height:1.2; 
+
+    .acutually{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight:600;
+        color:$red; 
+    }
+    &__title{
+        font-family:はれのそら明朝;
+        font-size:2.4rem;
+        font-weight:100;
+        color:$red;
+        // padding-top:16px;
+        text-align: center;
+    }
+
+    &__box1 hr{
+        text-align: end;
+        bottom: 0px;
+        height:3.0px;
+        background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size: 3px 3px;
+        border: none;
+        margin: 19px 0px 19px 0px; 
+    }
+    &__description{
+        font-size: 1.4rem;
+        font-weight:500;
+        color:#333;
+        // padding-left:22px;
+        // padding-right:38px;
+        text-align: left;
+    }
+    &__description span{
+        color: #990;
+    }
+    hr.hr-light{
+        text-align:end;
+        bottom:0px;
+        height:2.0px;
+        background: linear-gradient(-60deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size:1px 1px;
+        border: none;
+        left:22px;
+        right:38px;
+        margin: 13px 30px 19px 13px;
+    } 
+    
+    &__difference-title{
+        position: relative;
+        margin-bottom: 25px;
+    }
+    &__difference-title h3{
+        font-size: 1.3rem;
+        font-weight:500;
+        color:#5a3f37;
+        background: url("../images/ribbon2.jpg");
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
+        padding: 1rem 2rem;
+    }
+        
+    &__differencelist {
+        // width:100%;
+        // margin: 1rem;
+        
+        .img-container {
+            width: 90px;
+            margin: 10px;
+            @media screen and (min-width: $breakpoint-md) {
+                width: 160px;
+            }
+        }
+    }
+    
+    .differencebox1, .differencebox2 > div {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .differencebox2 {
+        text-align: center;
+    }
+    .border-right-gray {
+        border-right: 1px solid #cdcdcd;
+    }
+    .md-border-right-gray {
+        @media screen and (min-width: $breakpoint-md) {
+            border-right: 1px solid #cdcdcd;
+        }
+    }
+}

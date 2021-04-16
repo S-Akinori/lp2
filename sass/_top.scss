@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* CSS Document */
+.header {
+  height: 53px;
+  background-color: #FFF;
+  border-top: 3.5px solid #FC9;
+  position: relative;
+  z-index: 100;
+  .navbar-brand {
+      width: 150px;
+  }
+  .nav-link {
+      color: #333 !important;
+      margin: 0 20px;
+      text-align: center;
+  }
+}
+
+/*
+.header__navigation {
+  display: none;
+}
+*/
+
+/* .header img {
+  position: absolute;
+  height:29px;
+  left:12px;
+  top: 12px;
+} */
+/* ここまでOK */
+.section-top {
+  margin-bottom:17px;
+}
+.section-top {
+    &__image{
+        height: 500px;
+        // padding-bottom: 140px;
+        background-image:url("../images/top_image1.png");
+        background-size: cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        // margin-bottom:-22px;
+        position: relative;
+        z-index:90;
+        @media screen and (min-width:$breakpoint-md){
+            height: 500px;
+            background: url("../images/top_image.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat:no-repeat;
+            text-align: center;
+        }
+    }
+    &__letter{
+        max-width: 600px;
+        // background-repeat:no-repeat;
+        // background-position:center;
+        // // background-size: auto 100%;
+        // z-index:90;
+        margin-top: 20px;
+    }
+    
+    &__lead{
+        // height:402px;
+        background-image: url("../images/top_image2.png");
+        background-position:bottom;
+        background-size: cover;
+        // background-size: auto 100%;
+        background-repeat:no-repeat;
+        // position:relative;	
+        margin-top:-32px;
+        z-index:80;
+        position: relative;
+        padding: 30px;
+    }
+    &__lead p{
+        // position:absolute;
+        padding: 40px 16px 8px;
+        font-family: Noto Sans CJK JP;
+        font-size: 1.7rem;
+        font-weight: 400;
+        color:#666;
+        text-align: left;
+        @media screen and (min-width:$breakpoint-md){
+            text-align: center;
+        }
+    }
+    
+    &__lead__btn{
+        // background-size: auto 100%;
+        // background-position: center;
+        // height:45px;
+        // padding:0px 20px 0px 20px;
+        max-width: 500px;
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+.markeryellow{
+	  background:linear-gradient(transparent 0%, #ffff66 0%); 
+}

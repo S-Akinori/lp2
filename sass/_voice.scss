@@ -1,0 +1,84 @@
+.section-voice {
+    background: url("../images/bg5.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 50px 0 60px;
+    position: relative;
+    z-index: 20;
+    margin-top: -50px;
+    .title {
+        color: $red;
+        text-align: center;
+    }
+    hr{
+        text-align: end;
+        bottom: 0px;
+        height:3.0px;
+        background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size: 3px 3px;
+        border: none;
+        margin: 10px 0px 20px 0px; 
+    }
+    &__content {
+        font-size: 1.3rem;
+        margin: 0 20px;
+    }
+
+    .swiper-container {
+        width: 320px;
+        position: relative;
+        .swiper-slide {
+            background: url("../images/bg8.png");
+            .img-container {
+                width: 100px;
+            }
+            img {
+                width: 100%;
+            }
+            .title {
+                display: flex;
+                align-items: center;
+                margin: 10px 0 20px 0;
+            }
+            .bg-yellow {
+                background: #ebe201;
+            }
+        }
+        .swiper-prev  {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            z-index: 600;
+            bottom: 50%;
+            // left: -30px;
+
+            font-size: 1.5rem;
+            color: #fff;
+            border-radius: 50%;
+            background: $red;
+        }
+        .swiper-next  {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            z-index: 10000;
+            bottom: 50%;
+            right: 0;
+
+            font-size: 1.5rem;
+            color: #fff;
+            border-radius: 50%;
+            background: $red;
+        }
+        @media screen and (min-width: $breakpoint-md) {
+            width: 700px;
+        }
+    }
+}

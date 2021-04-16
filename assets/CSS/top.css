@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+/* CSS Document */
+.header {
+  height: 53px;
+  background-color: #FFF;
+  border-top: 3.5px solid #FC9;
+  position: relative;
+}
+
+.header__navigation {
+  display: none;
+}
+
+/* .header img {
+  position: absolute;
+  height:29px;
+  left:12px;
+  top: 12px;
+} */
+/* ここまでOK */
+.main {}
+.section-top {
+  margin-bottom:17px;
+}
+.section-top__image{
+	height:439px;
+	background-image:url("../images/top_image1.png");
+	background-position:center;
+	background-size: auto 100%;
+	background-repeat:no-repeat;
+	margin-bottom:-22px;
+	position: relative;
+	z-index:100;
+	
+}
+.section-top__letter{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: auto 100%;
+	z-index:90;
+	margin-top: 20px;
+}
+
+.section-top__lead{
+	height:272px;
+	background-image: url("../images/bg1.png");
+	background-position:center;
+	background-size: auto 100%;
+	background-repeat:no-repeat;
+	position:relative;	
+	margin-bottom:-28px;
+	z-index:80;
+}
+.section-top__lead p{
+	position:absolute;
+	padding: 33px 16px 8px;
+	font-family: Noto Sans CJK JP;
+	font-size: 1.7rem;
+	font-weight: 400;
+	color:#666;
+	text-align: left;
+}
+
+.section-top__lead__btn{
+	background-size: auto 100%;
+	background-position: center;
+	height:45px;
+	padding:0px 20px 0px 20px;
+}
+
+.markeryellow{
+	  background:linear-gradient(transparent 0%, #ffff66 0%); 
+}
+
+.section-about{
+	height:658px;
+	background-image:url("../images/bg2.png");
+	background-position:center;
+	background-size: auto 100%;
+	background-repeat:no-repeat;
+	position:relative;	
+	z-index:70;
+	font-family: Noto Sans CJK JP;
+	font-size: 1.3rem;
+	font-weight:400;
+	color:#666;
+	text-align: left;
+
+}
+
+.section-about__sugutabe{
+	color: #c33; 
+}
+
+.section-about__3{
+	color: #393;
+	font-size:3.6rem;
+}
+.section-about__title{
+	position:absolute;
+	font-family: はれのそら明朝;
+	font-size:2.4rem;
+	font-weight:100;
+	color:#666;
+    height:42px;
+	
+}
+#about{
+	height: 62px;
+	margin: 27px 11px 36px;
+	text-align:center;
+}
+
+.section-about__title hr{
+	text-align: end;
+	bottom: 0px;
+	height:3.0px;
+	background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+	background-size: 3px 3px;
+	border: none;
+	margin: 10px 0px 12px 0px; 
+}
+
+.section-about__list{
+	padding: 14px 10px 0px 7px;
+}
+
+.section-about__list ol{
+	list-style:none;
+	padding-top:70px;
+}
+
+.section-about__list span{
+	font-size: 1.1rem;
+	font-weight: 300;
+}
+.section-about__list h3{
+	font-size:2.4rem;
+	color: #c33;
+	font-weight: 300;
+}
+.btn{
+	background-size: auto 100%;
+	background-position: center;
+	height:45px;
+			 
+}
+.section-about__number{
+	position:relative;
+	height: 42px;
+	width: 42px;
+	margin-right:12px;
+	
+}
+
+.section-about__number img {
+	height: 42px;
+	width: 42px;
+	
+}
+.number{
+   position:absolute;
+   top:20%;
+   left:24%;
+   font-style:Noto Serif CJK JP;
+   font-size: 3.6rem;
+   font-weight:500;
+   color: #fff;
+}
+.section-about__number,
+.section-about__subtitle{
+	display: inline-block;
+}
+.section-about__titlebox span,p{
+	vertical-align: top;
+}
+.section-about__list hr{
+	text-align:end;
+	bottom: 0px;
+	height:5.0px;
+	background: linear-gradient(-70deg,transparent 30%,#666 60%, #666 60%,transparent 30%);
+	background-size: 5px 5px;
+	border: none;
+	margin: 5px 0px 5px 0px; 
+}
+
+.section-about__description{
+	margin-bottom:30px;
+	font-size: 1.3rem;
+}
+
+.section-about__description span{
+	font-family: Noto Sans CJK JP;
+	font-size: 1.3rem;
+	font-weight:400;
+	color:#C33;
+	text-align: left;
+}
+.section-trial{
+	height:390px;
+	width: auto 100%;
+	background-image:url("../images/bg3.png");
+	background-position:center;
+	background-size: auto 100%;
+	background-repeat:no-repeat;
+	position:relative;	
+	z-index:60;
+	margin-top:-12px;
+	font-family:Noto Serif CJK JP;
+	font-weight:400;
+	color:#fff;
+	padding:12px 0px 31px 0px;
+	}
+.comment{
+	width: 100%;
+	font-size: 1.4rem;
+	color:#ff0;
+	text-align: center;
+	margin-bottom:14px;
+}
+.ribbonyellow{
+	position:relative;
+	padding:7px 24px;
+	width:93.75px;
+	height: 22.7px;
+}
+.ribbonyellowimage,
+.just1{
+	position:absolute;
+	width:25%;
+	top: 36px;
+	left: 30px;
+	font-size: 1.3px;
+	color: #963;
+	text-align:center;
+}
+#trial{
+	font-size:2.4rem;
+	font-family:はれのそら明朝;
+	font-weight: 200;
+	padding-left: 74px;
+	margin-bottom:12px;
+	}
+.section-trial hr{
+	text-align: end;
+	bottom: 0px;
+	height:3.0px;
+	background: linear-gradient(-70deg,transparent 25%,#fff 45%, #fff 55%,transparent 65%);
+	background-size: 3px 3px;
+	border: none;
+	margin: 12px 0px 25px 0px; 
+}
+.section-trial__item-picture{
+	width:36%;
+	vertical-align:top;
+	left:0;
+}
+.section-trial__item{
+	width:60%;
+	text-align:left;
+}
+.section-trial__items{
+	margin-bottom:25px;
+}
+.section-trial__item-picture,
+.section-trial__item{
+	display: inline-block;
+	padding-left:0px;
+}
+.person{
+	font-size:0.9rem;
+	width:0.5em;
+	border:solid 0.3px;
+	margin-right:5px;
+}
+.placeandtax{
+	font-size:1.2rem;
+	margin-right: 8px;
+}
+.farm{
+	font-size:1.6rem;
+}
+.section-trial__item h3{
+	font-size: 1.6rem;
+	border-bottom:0.2px solid;
+	padding-bottom:8px;
+	
+}
+.price{
+	font-size: 1.8rem;
+	margin-top:13px; 
+}
+.section-assurance{
+ height:553px;
+ width: auto 100%;
+ background-image: url("../images/bg4.png");
+ background-position:center;	 
+ background-size: auto 100%;	 
+ background-repeat:no-repeat;
+ position:relative;	
+ z-index:50;	
+ margin-top:-12px;
+ font-family:Noto Serif CJK JP;
+ font-weight:400;
+ padding:28px;
+}
+.section-assurance__subtitle{
+	font-size:1.2rem;
+	font-weight:500;
+	color:#734e30;
+	text-align: center;
+	}
+.section-assurance h2{
+	font-family:はれのそら明朝;
+	font-size:2.4rem;
+	font-weight: 200;
+	color:#734e30;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.section-assurance hr{
+	text-align: end;
+	bottom: 0px;
+	height:3.0px;
+	background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+	background-size: 3px 3px;
+	border: none;
+	margin: 10px 0px 20px 0px; 
+}
+.section-assurance__description {
+	background:linear-gradient(90deg, rgb(90,63,55) 0%, rgb(108,76,22) 61%, rgb(90,63,55) 100%);
+	position: absolute;
+	color:#fff;
+    left:20px;
+    top:103px;
+    width:310px;
+    height:230px;
+	padding:13px 11px 0px 10px;
+	text-align: center;
+	margin-top:21px;
+	
+	
+}
+.section-assurance__description h3{
+	font-size: 1.9rem;
+    font-weight:200;
+	line-height:1.2; 
+	text-align: left;
+	margin-bottom: 13px;
+}
+.section-assurance__description p{
+	font-size:1.4rem;
+	font-family:Noto Sans CJK JP; 
+	line-height: 1.4;
+	font-weight:400;
+	margin-top:17px;
+}
+.section-assurance__tomato{
+	height: 219px;
+	width: 219px;
+	outline:0.5px solid #fff;
+	outline-offset:-4px; 
+}
+.section-farmers{
+	height:890px;
+	width: auto 100%;
+	background-image: url("../images/bg5.png");
+    background-color: #fff;
+    background-position:center;	 
+    background-size: auto 100%;	 
+    background-repeat:no-repeat;
+    position:relative;	
+    z-index:40;	
+    margin-top:-12px;
+    font-family:Noto Sans CJK JP;
+    font-weight:400;
+	padding-top:34px;
+	line-height:1.2; 
+}
+.acutually{
+	font-size: 1.4rem;
+	font-weight:600;
+	color:#5a3f37; 
+}
+.section-farmers__title{
+	font-family:はれのそら明朝;
+	font-size:2.4rem;
+	font-weight:100;
+	color:#5a3f37;
+	padding-top:16px;
+}
+.organicgraph{
+	display:none;
+}
+.section-farmers__box1 hr{
+	text-align: end;
+	bottom: 0px;
+	height:3.0px;
+	background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+	background-size: 3px 3px;
+	border: none;
+	margin: 19px 0px 19px 0px; 
+}
+.section-farmers__description{
+	font-size: 1.4rem;
+	font-weight:500;
+	color:#333;
+	padding-left:22px;
+	padding-right:38px;
+	text-align: left;
+}
+.section-farmers__description span{
+	color: #990;
+}
+.section-farmers__box2 hr{
+    text-align:end;
+	bottom:0px;
+	height:2.0px;
+	background: linear-gradient(-60deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+	background-size:1px 1px;
+	border: none;
+	left:22px;
+	right:38px;
+	margin: 13px 30px 19px 13px;
+} 
+
+.section-farmers__difference-title{
+	position: relative;
+	margin-bottom: 25px;
+}
+.section-farmers__difference-title h3{
+	position: absolute;
+	font-size: 1.2rem;
+	font-weight:500;
+	color:#5a3f37;
+	top:7px;
+	left:62px;
+	width:254px;
+}
+	
+.section-farmers__differencelist img{
+	width:90px;
+}
+
+.differencebox1 {
+	display:flex;
+}
+
+	
+}
+
+
+
+
+	
+
+
+
+    
+
+  
+
+	
+
+
+
+
+
+	

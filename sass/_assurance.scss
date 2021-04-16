@@ -1,0 +1,116 @@
+.section-assurance{
+    // height:553px;
+    // width: auto 100%;
+    background-image: url("../images/bg4.png");
+    background-position : bottom;	 
+    // background-size: auto 100%;	 
+    background-size: cover;
+    background-repeat:no-repeat;
+    position:relative;	
+    z-index:50;	
+    // margin-top:-12px;
+    font-family:Noto Serif CJK JP;
+    font-weight:400;
+    margin-top: -40px;
+    padding: 40px 0 100px;
+
+    &__subtitle{
+        font-size:1.2rem;
+        font-weight:500;
+        color:#734e30;
+        text-align: center;
+        }
+     h2{
+        font-family:はれのそら明朝;
+        font-size:2.4rem;
+        font-weight: 200;
+        color:#734e30;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+     hr{
+        text-align: end;
+        bottom: 0px;
+        height:3.0px;
+        background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size: 3px 3px;
+        border: none;
+        margin: 10px 0px 20px 0px; 
+    }
+    &__content {
+        @media screen and (min-width : $breakpoint-md) {
+            display: flex;
+            flex-flow: row-reverse;
+        }
+    }
+    &__description {
+        background:linear-gradient(90deg, rgb(90,63,55) 0%, rgb(108,76,22) 61%, rgb(90,63,55) 100%);
+        position: relative;
+        color:#fff;
+        // left:20px;
+        // top:103px;
+        // width:310px;
+        // height:230px;
+        padding: 30px 10px;
+        margin-top: 30px;
+
+        margin: auto;
+
+        @media screen and (min-width:$breakpoint-md) {
+            width: 500px;
+        }
+        @media screen and (min-width:$breakpoint-lg) {
+            width: 600px;
+            right: 40px;
+        }
+        @media screen and (min-width:$breakpoint-xl) {
+            right: 80px;
+        }
+        > div {
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+    &__description h3{
+        font-size: 1.9rem;
+        font-weight:200;
+        line-height:1.2; 
+        // text-align: left;
+        margin-bottom: 13px;
+    }
+    &__description p{
+        font-size:1.4rem;
+        font-family:Noto Sans CJK JP; 
+        line-height: 1.4;
+        font-weight:400;
+        margin-top:17px;
+    }
+    &__tomato{
+        margin: auto;
+        position: relative;
+        top: -10px;
+        height: 219px;
+        width: 219px;
+        outline:0.5px solid #fff;
+        outline-offset:-4px; 
+        @media screen and (min-width : $breakpoint-md) {
+            left: 40px;
+            top: 40px;
+            margin-right: auto;
+        }
+        @media screen and (min-width : $breakpoint-lg) {
+            width: 240px;
+            height: 240px;
+        }
+        @media screen and (min-width : $breakpoint-xl) {
+            left: 80px;
+            width: 280px;
+            height: 280px;
+        }
+    }
+    .md-underline {
+        @media screen and (min-width : $breakpoint-md) {
+            text-decoration: underline dotted;
+        }
+    }
+}

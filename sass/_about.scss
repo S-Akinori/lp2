@@ -1,0 +1,161 @@
+.section-about{
+	// height:658px;
+	background: url("../images/bg2.png");
+	background-position: bottom;
+	// background-size: auto 100%;
+    background-size: cover;
+	background-repeat:no-repeat;
+	position:relative;	
+	z-index:70;
+	font-family: Noto Sans CJK JP;
+	font-size: 1.3rem;
+	font-weight:400;
+	color:#666;
+	text-align: left;
+    margin-top: -50px;
+    padding: 50px 0 30px;
+
+    &__sugutabe{
+        color: #c33; 
+    }
+    
+    &__3{
+        color: #393;
+        font-size:3.6rem;
+    }
+    &__title{
+        // position:absolute;
+        font-family: はれのそら明朝;
+        font-size:2.4rem;
+        font-weight:100;
+        color:#666;
+        text-align:center;
+        // height:42px;
+    }
+    #about{
+        // height: 62px;
+        // margin: 27px 11px 36px;
+        // margin-top: 50px;
+        // text-align:center;
+    }
+    
+     hr{
+        text-align: end;
+        bottom: 0px;
+        height:3.0px;
+        background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size: 3px 3px;
+        border: none;
+        margin: 10px 0px 12px 0px; 
+    }
+    
+    &__list{
+        padding: 14px 10px 0px 7px;
+    }
+    
+    // &__list ol{
+    //     list-style:none;
+    //     padding-top:70px;
+    // }
+    
+    &__list span{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    &__list h3{
+        font-size:2.2rem;
+        color: #c33;
+        font-weight: 300;
+    }
+    .btn{
+        background-size: auto 100%;
+        background-position: center;
+        height:45px;
+                 
+    }
+    &__titlebox {
+        display: flex;
+        align-items: center;
+        @media screen and (min-width:$breakpoint-md) {
+            display: block;
+            text-align: center;
+        }
+    }
+    &__number{
+        /* position:relative;*/
+        height: 42px;
+        width: 42px;
+        margin-right:12px;
+        /* top:20%;
+        left:24%;*/
+        text-align: center;
+        font-style:Noto Serif CJK JP;
+        font-size: 3.6rem;
+        font-weight:500;
+        color: #fff;
+    }
+    .number__red {
+        background: url("../images/square_red.jpg");
+    }
+    .number__green {
+        background: url("../images/square_green.jpg");
+    }
+    .number__orange {
+        background: url("../images/square_orange.jpg");
+    }
+    
+    // &__number img {
+    //     height: 42px;
+    //     width: 42px;
+        
+    // }
+    // .number{
+    //     text-align: center;
+    //    position:absolute;
+    //    top:20%;
+    //    left:24%;
+    //    font-style:Noto Serif CJK JP;
+    //    font-size: 3.6rem;
+    //    font-weight:500;
+    //    color: #fff;
+    //    &__red {
+    //         background: url("../images/square_red.jpg");
+    //    }
+    //    &__green {
+    //         background: url("../images/square_green.jpg");
+    //    }
+    //    &__orange {
+    //         background: url("../images/square_orange.jpg");
+    //    }
+    // }
+
+    &__number,
+    &__subtitle{
+        // display: inline-block;
+    }
+    &__titlebox span,p{
+        // vertical-align: top;
+    }
+    &__list hr{
+        text-align:end;
+        bottom: 0px;
+        height:5.0px;
+        background: linear-gradient(-70deg,transparent 30%,#666 60%, #666 60%,transparent 30%);
+        background-size: 5px 5px;
+        border: none;
+        margin: 5px 0px 5px 0px; 
+    }
+    
+    &__description{
+        margin-bottom:30px;
+        font-size: 1.3rem;
+    }
+    
+    &__description span{
+        font-family: Noto Sans CJK JP;
+        font-size: 1.3rem;
+        font-weight:400;
+        color:#C33;
+        text-align: left;
+    }
+}

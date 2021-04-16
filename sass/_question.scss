@@ -1,0 +1,105 @@
+.section-question {
+    background: url("../images/bg8.png");
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px 0;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+    .title {
+        color: $red;
+        text-align: center;
+    }
+    hr{
+        text-align: end;
+        bottom: 0px;
+        height:3.0px;
+        background: linear-gradient(-70deg,transparent 25%,#666 45%, #666 55%,transparent 65%);
+        background-size: 3px 3px;
+        border: none;
+        margin: 10px 0px 20px 0px; 
+    }
+    &__content {
+        background: #fff;
+        p {
+            margin: 0;
+        }
+        .question {
+            font-size: 1.5rem;
+            margin: 0;
+            padding: 10px;
+            border: 1px solid #efefef;
+            border-bottom: 1px dotted #333;
+            position: relative;
+            display: flex;
+            align-items: center;
+            @media screen and (min-width: $breakpoint-md) {
+                border-bottom: none;
+            }
+            .q-icon {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                font-size: 2rem;
+                background: #ebe201;
+                border-radius: 50%;
+                margin-right: 10px;
+                padding: 10px;
+                color: #fff;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: -6px;
+                    right: -6px;
+                    margin-top: -15px;
+                    border: 8px solid transparent;
+                    border-left: 8px solid #ebe201;
+                    z-index: 0;
+                    transform: rotate(45deg);
+                }
+            }
+            
+        }
+        .answer {
+            position: relative;
+            display: flex !important;
+            padding: 10px;
+            .a-icon {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                font-size: 2rem;
+                background: $red;
+                border-radius: 50%;
+                margin-right: 10px;
+                padding: 10px;
+                color: #fff;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: -6px;
+                    right: -6px;
+                    margin-top: -15px;
+                    border: 8px solid transparent;
+                    border-left: 8px solid $red;
+                    z-index: 0;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .down-up-icon {
+            width: 15px;
+            height: 15px;
+            margin-left: auto;
+        }
+    }
+    h3 {
+        color: $red;
+    }
+}
